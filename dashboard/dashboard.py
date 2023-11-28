@@ -214,7 +214,6 @@ ax.tick_params(axis='x', labelsize=20)
 ax.tick_params(axis='y', labelsize=15)
 st.pyplot(fig)
 
-# Membuat jumlah penyewaan berdasarkan weekday, working dan holiday
 st.subheader('Weekday, Workingday, and Holiday Rentals')
 
 fig, axes = plt.subplots(nrows=3, ncols=1, figsize=(15,10))
